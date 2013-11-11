@@ -1,0 +1,67 @@
+body {
+	font-size: 16px;
+	text-align: center;
+}
+
+.all-the-shit {
+	display: inline-block;
+	width: 95%;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left + *,
+.float-right + * {
+	clear: both;
+}
+
+.dicks {
+	display: block;
+	font-family: "Segoe UI Light", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+.dicks a {
+	color: #686868;
+	text-decoration: none;
+}
+
+.dicks a:hover {
+	color: black;
+}
+
+.dicks a:not(:last-child) {
+	margin-right: 1em;
+}
+
+.shit {
+	text-align: center;
+}
+
+.fuck {
+	display: inline-block;
+	margin: 0 auto;
+	width: 30%;
+	vertical-align: top;
+	text-align: left;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	margin: 0 0.5em;
+}
+
+.fuck h1 {
+	color: orange;
+	font-family: "Segoe UI Light", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+}
+
+.bigger h1 {
+	font-size: 3em;
+}
